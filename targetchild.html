@@ -1,0 +1,31 @@
+<html>
+    <style>
+        ul li{
+            list-style: none;
+        }
+        li:nth-child(3){
+            color: red;
+        }
+        p{
+            position: relative;
+            writing-mode: vertical-rl;
+            top: -10px;
+            animation-name: p-text-animation;
+            animation-duration: 5s;
+        }
+        @keyframes p-text-animation{
+            from{font-size: 20px;}
+            tp{font-size: 30px;}
+        }
+
+    </style>
+    <body>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <p>Some text</p>
+    </body>
+</html>
